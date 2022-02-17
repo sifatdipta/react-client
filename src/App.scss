@@ -13,6 +13,12 @@
   }
 }
 
+body {
+  box-sizing: border-box;
+  background: rgb(120,94,68);
+  background: linear-gradient(35deg, rgba(120,94,68,1) 0%, rgba(86,96,125,1) 100%);
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

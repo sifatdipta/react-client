@@ -1,0 +1,56 @@
+.user {
+    background-color: white;
+    width: 1000px;
+    border-radius: 5px;
+    margin: 30px auto;
+    padding: 30px 60px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+
+    & * {
+        //border: 1px solid red;
+    }
+
+    &__image-container {
+        width: 200px;
+    }
+
+    &__image {
+        width: 200px;
+        height: 200px;
+        border-radius: 300px;
+    }
+
+    &__details {
+        width: 600px;
+    }
+
+    &__contact {
+        width: 200px;
+    }
+
+    &__name {
+        font-size: 35px;
+        margin: 0 0 5px 0;
+    }
+
+    &__label {
+        font-weight: bold;
+        color: gray;
+        margin: 0;
+    }
+
+    &__bio {
+        margin: 0;
+        color: gray;
+        font-size: 15px;
+    }
+
+    &__cdata {
+        color: rgb(223, 37, 161);
+        margin: 0;
+    }
+}
